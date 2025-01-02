@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Load the model
-model = tf.keras.models.load_model('garbage_classification_model (1).h5')
+model = tf.keras.models.load_model('garbage_classification_model.h5')
 
 # Define the class names
 class_names = ['battery', 'carton', 'metal', 'organic', 'paper', 'plastic', 'glass', 'clothing']
